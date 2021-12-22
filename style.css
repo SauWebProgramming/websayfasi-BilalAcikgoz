@@ -40,3 +40,34 @@ body{
     padding-top: 3px;
     padding-left: 4px;
 }
+
+#menu{
+    width: 680px;
+    height: 70px;
+    margin-left: 23%;
+    background-color: #1293ee;
+}
+
+#menu ul li{
+    float: left;
+    display: block;
+    height: 35px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.active{
+    background-color: #0d66a5;
+}
+
