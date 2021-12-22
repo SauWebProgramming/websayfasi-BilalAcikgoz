@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+
+/* index.html */
+
+#header{
+    height: 220px;
+    background-image: url(images/background-image.jpg);
+}
+
+#logo{
+    width: 900px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo h1{
+    color: white;
+    letter-spacing: 5px;
+    padding-top: 42px;
+    font: 38px, "century gothing", arial, sans-serif;
+}
+
+.logo-rengi{
+    color: #1293ee;
+}
+
+#logo h2{
+    color: yellowgreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 3px;
+    padding-left: 4px;
+}
