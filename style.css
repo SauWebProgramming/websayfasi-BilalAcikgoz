@@ -163,3 +163,38 @@ a:hover{
     letter-spacing: 1px;
     padding-top: 24px;
 }
+
+/* egitim.html ve iletisim.html */
+
+.aboutcontent h1{
+    color: #1293ee;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.aboutcontent h3{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.aboutcontent p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: 5px;
+}
+
+#iletisimformu{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: 5px;
+}
+
+label, input{
+    display: inline-block;
+}
+
+label{
+    width: 30%;
+}
