@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="lightbox.css" />
+    <link rel="icon" href="images/logo.ico" />
+    <style>
+      a:link {
+        color: blue;
+        text-decoration: none;
+      }
+      a:visited {
+        color: darkorchid;
+        text-decoration: none;
+      }
+      a:hover {
+        color: red;
+        text-decoration: underline;
+      }
+    </style>
+    <title>Fotoğraf Albümü</title>
+</head>
+<body>
+    <script src="jquery.js"></script>
+    <script src="lightbox.js"></script>
+    <!-- Sayfamizin ust kismi yani baslik, icerik kisimlari burada olusturuldu -->
+
+    <div id="top">
+        <div id="header">
+          <img id="ownphoto" src="images/myownphoto.png" />
+          <div id="logo">
+            <h1>BİLAL <span class="logo-rengi">AÇIKGÖZ</span></h1>
+            <h2>
+              Programlama Dilleri, Makine Öğrenmesi ve Yapay Zeka Bilgi Platformu
+            </h2>
+          </div>
+          <div id="menu">
+            <ul style="list-style: none">
+              <li class="active">
+                <a href="index.html">ANASAYFA</a>
+              </li>
+              <li>
+                <a href="egitim.html">EĞİTİM İÇERİKLERİ<a>
+              </li>
+              <li class="active">
+                <a href="album.html">FOTOĞRAF ALBÜMÜ</a>
+              </li>
+              <li>
+                <a href="iletisim.html">İLETİŞİM</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sayfamizin icerik kismi burada yer alacak -->
+
+      <div class="bilgi">
+        <h1>FOTOĞRAF GALERİSİ</h1>
+      </div>
+
+      <div class="photo">
+        <a href="images/fotogaleri1.jpg" data-lightbox="roadtrip" data-title="Machine Learning"><img class="res" src="images/fotogaleri1.jpg" alt="Machine Learning"></a>
+        <a href="images/fotogaleri2.jpeg" data-lightbox="roadtrip" data-title="Machine Learning"><img class="res" src="images/fotogaleri2.jpeg" alt="Machine Learning"></a>
+        <a href="images/fotogaleri3.jfif" data-lightbox="roadtrip" data-title="Artifical Intelligence"><img class="res" src="images/fotogaleri3.jfif" alt="Artifical Intelligence"></a>
+
+        <br><br><br>  
+
+        <a href="images/fotogaleri4.jfif" data-lightbox="roadtrip" data-title="Artifical Intelligence"><img class="res" src="images/fotogaleri4.jfif" alt="Artifical Intelligenceg"></a>
+        <a href="images/fotogaleri5.jpg" data-lightbox="roadtrip" data-title="Software Language"><img class="res" src="images/fotogaleri5.jpg" alt="Software Language"></a>
+        <a href="images/fotogaleri6.png" data-lightbox="roadtrip" data-title="Software Language"><img class="res" src="images/fotogaleri6.png" alt="Software Language"></a>
+      </div>
+
+      <div id="sidebar">
+        <h2>Kategoriler</h2>
+        <ul class="link">
+            <li><a href="#" target="_blank">C</a></li>
+            <li><a href="#" target="_blank">C++</a></li>
+            <li><a href="#" target="_blank">C#</a></li>
+            <li><a href="#" target="_blank">Python</a></li>
+        </ul>
+        <h2>Faydalı Linkler</h2>
+        <ul class="link">
+            <li><a href="https://www.google.com.tr/" target="_blank">Google</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+            <li><a href="file:///C:/Users/Hp/Desktop/websayfasi/index.html#" target="_blank">Bilal Açıkgöz</a></li>
+        </ul>
+        <h2>Sosyal Medya</h2>
+        <ul class="link">
+            <li><a href="https://www.youtube.com/channel/UCSYrKgphOu_Mo1oWS4fR2Wg" target="_blank">Youtube</a></li>
+            <li><a href="https://www.instagram.com/bilalacikqoz/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/in/bilal-a%C3%A7%C4%B1kg%C3%B6z-038a10223/" target="_blank">Linkedin</a></li>
+            <li><a href="https://github.com/BilalAcikgoz" target="_blank"> Github</a></li>
+        </ul>
+    </div>
+</div>
+
+<div style="clear: both;">
+
+</div>
+
+<div id="footer">
+    Copyright &copy; Bilal Açıkgöz | Machine Learning | 
+    Artification Intelligence | Iletişim
+</div>
+
+
+
+
+
+      
+  
+    
+</body>
+</html>
